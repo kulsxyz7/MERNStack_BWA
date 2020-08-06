@@ -74,6 +74,7 @@ Button.propTypes = {
   href: propTypes.string,
   target: propTypes.string, //untuk link external
   className: propTypes.string,
+  isPrimary: propTypes.bool,
   isExternal: propTypes.bool,
   isDisabled: propTypes.bool, // untuk pengecekan link nya disabled atau tidak
   isLoading: propTypes.bool, // misalkan klik sesuatu button ada animasi loading
